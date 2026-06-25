@@ -1,0 +1,26 @@
+site_name: 'Экзамен по дисуиплине "Информационные сиситемы и база данных"'
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+
+nav:
+  - Лабораторная (PostgreSQL): lab_postgresql.md
+  - Портфолио: portfolio.md
+
+# Для красивой подсветки SQL и других языков
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
